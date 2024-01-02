@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OBJECTS-DEMO</title>
+</head>
+<body>
+  <script>
+    function orders(production){
+      production()
+      setTimeout(()=>{document.write("orders");
+    },2000)
+    }
+    function production(){
+      document.write("productions page");
+    }
+    orders(production)
+</script>
+</body>
+</html>
+
